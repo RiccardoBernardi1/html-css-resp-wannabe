@@ -130,13 +130,13 @@ img {
  /* responsive tablet */
 @media screen and (max-width:768px){
     .container{
-       max-width: 90%;
+       max-width: 90vw;
     }
 }   
 /* responsive mobile */
 @media screen and (max-width:480px){
     .container{
-       max-width: 375px;
+       max-width: 90vw;
     }
     .lessons .col{
         width: 100%;
@@ -160,3 +160,9 @@ img {
         margin-top: 50px;
     }
 } 
+/* responsive desktop */
+@media screen and (min-width:760px) {
+    .container{
+        max-width: 90vw;
+    }    
+}
